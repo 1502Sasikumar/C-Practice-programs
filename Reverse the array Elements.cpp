@@ -5,7 +5,7 @@ using namespace std;
 void ReverseArray(int arr[],int n)
 {
     int temp=0,i,j;
-    for(i=0,j=n-1; i!=j; i++,j--){
+    for(i=0,j=n-1; i<j; i++,j--){
         temp=arr[i];
         arr[i]=arr[j];
         arr[j]= temp;
